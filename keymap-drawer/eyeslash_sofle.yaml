@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyeslash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -13,8 +13,8 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-caps$$
   - Q
   - W
   - E
@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - .
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-control$$
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: \, s: '|'}
   layer1:
   - {t: '`', s: '~'}
   - F1
